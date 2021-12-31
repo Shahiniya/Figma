@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+}
+
+.navbar{
+    width: 75%;
+    height: 100px;
+    margin:0px,auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo{
+width: 250px;
+height: 65px;
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    font-style:normal;
+    font-weight: 500;
+    font-size: 16px;
+    /* line-height: 24px; */
+    margin-left: 25px;
+    margin-right: 25px;
+    color:#030A1B;
+    opacity:0.7;
+    text-decoration: none;
+}
+
+.btn{
+    width: 149px;
+    height: 54px;
+    background-color:#2E6EFF;    ;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    
+}
+.item:hover{
+    color:black;
+
+}
+/* card section boshlandi */
+
+.container{
+    width:75%;
+    height: 300px;
+    margin:30px, auto;
+    background-color: brown;
+}
+
+.card{
+    width:362px;
+    height: 553px;
+    background: #FFFFFF;
+    box-shadow:0px 8px 70px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+
+}
