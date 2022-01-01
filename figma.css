@@ -7,10 +7,18 @@
     font-family:'Poppins',sans-serif;
 }
 
-.navbar{
+/* .set{
     width: 75%;
+    margin:0px auto;
+} */
+
+
+
+.navbar{
+    
+    width: 75%;
+    margin:0px auto;
     height: 100px;
-    margin:0px,auto;
     display:flex;
     align-items: center;
     justify-content: space-between;
@@ -58,10 +66,9 @@ height: 65px;
 /* card section boshlandi */
 
 .container{
-    width:75%;
-    height: 300px;
-    margin:30px, auto;
-    background-color: brown;
+    width:75%;  
+    margin:0px auto;
+    
 }
 
 .card{
@@ -71,4 +78,29 @@ height: 65px;
     box-shadow:0px 8px 70px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
 
+}
+
+.card-rasm{
+    width:100% ;
+    height: 60%;
+}
+
+.box{
+    width: 80%;
+    height: 200px;
+    background-color: red;
+    margin:0px,auto;
+
+}
+
+.flexing{
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+   color: #030A1B;
 }
